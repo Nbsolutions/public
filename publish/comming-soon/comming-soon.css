@@ -1,0 +1,24 @@
+body 
+{
+	background-image:url(http://nbsolutions.github.io/public/publish/raffledraw/background.png);
+}
+.article
+{
+	background-color:#ffeb64;
+}
+.article #subject .img-responsive
+{
+	margin-top:-15px;
+	-moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius:5px; /* Safari, Chrome */
+    -khtml-border-radius:5px; /* Konqueror */
+	border-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+}
+.article #subject .bngif
+{
+	margin-top:-621px;
+	-moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius:5px; /* Safari, Chrome */
+    -khtml-border-radius:5px; /* Konqueror */
+	border-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+}
