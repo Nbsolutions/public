@@ -6,7 +6,7 @@ body
 {
 	background-color:#ffeb64;
 }
-.article #subject .img-responsive
+.article #subject .title
 {
 	margin-top:-15px;
 	-moz-border-top-right-radius:5px; /* Firefox */
@@ -28,6 +28,7 @@ body
 }
 .article .introduction, .article .step
 {
+	position:relative;
 	background-color:#FFF;
 	-moz-border-radius:5px; /* Firefox */
     -webkit-border-radius:5px; /* Safari, Chrome */
@@ -43,12 +44,12 @@ body
 }
 #activity .main-content .introduction .sec1, #activity .main-content .step .sec2, #activity .main-content .step .sec3 
 {
+	position:relative;
 	padding-top:10px;
 	padding-bottom:15px;
 }
 .article .introduction
 {
-	width:644px;
 	margin-top:-135px;
 }
 #activity .main-content .step .ps .sec4
@@ -57,13 +58,11 @@ body
 }
 #activity .main-content .step .giftintr
 {
-	height:212px;
+	position:relative;
 }
 #activity .main-content .step .mumasec
 {
-	height:165px;
-	margin-top:30px;
-	border-style:outset;
+	margin-top:10px;
 	-moz-border-radius:5px; /* Firefox */
     -webkit-border-radius:5px; /* Safari, Chrome */
     -khtml-border-radius:5px; /* Konqueror */
@@ -77,15 +76,21 @@ body
 #activity .main-content .step .mumasec .muma
 {
 	float:right;
+	position:relative;
 }
 #activity .main-content .step .ps
 {
+	position:relative;
 	padding-top:5px;
 	margin-top:20px;
-	height:410px;
+	padding-bottom:30px;
 }
 #activity .main-content .step .ps .boldtxt, #activity .main-content .step .boldtxt
 {
 	font-family: "華康儷細黑";
 	font-weight:700;
+}
+BODY.xs .article .introduction
+{
+	margin-top:0px;
 }
