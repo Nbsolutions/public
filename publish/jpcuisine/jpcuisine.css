@@ -12,7 +12,7 @@
 }
 .article
 {
-	background-image:url(/assets/images/publish/jpcuisine/title.gif);
+	background-image:url(http://nbsolutions.github.io/public/publish/jpcuisine/title.gif);
 	background-repeat:no-repeat;
 	background-size: contain;
 	background-color:#f0d7b8;
@@ -22,7 +22,7 @@
 	width:367px;
 	height:178px;
 	float:left;
-	background-image:url(/assets/images/publish/jpcuisine/intr.png);
+	background-image:url(http://nbsolutions.github.io/public/publish/jpcuisine/intr.png);
 	background-repeat:no-repeat;
 	background-size: contain;
 }
@@ -127,7 +127,7 @@ BODY.xs .article .main-content .intr
 {
 	width:100%;
 	height:auto;
-	background-image:url(/assets/images/publish/jpcuisine/intrphone.png);
+	background-image:url(http://nbsolutions.github.io/public/publish/jpcuisine/intrphone.png);
 	background-repeat:repeat-y;
 	background-size:cover;
 }
