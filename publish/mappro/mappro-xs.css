@@ -1,0 +1,292 @@
+BODY 
+{
+	background-image:url(http://nbsolutions.github.io/public/publish/raffledraw/background.png);
+}
+.article #subject .topkuru, .article #subject .topfb
+{
+	margin-top:-15px;
+	-moz-border-top-right-radius:5px; /* Firefox */
+	-moz-border-top-left-radius:5px; /* Firefox */
+    -webkit-border-top-right-radius:5px; /* Safari, Chrome */
+    -webkit-border-top-left-radius:5px; /* Safari, Chrome */
+    -khtml-border-top-right-radius:5px; /* Konqueror */
+    -khtml-border-top-left-radius:5px; /* Konqueror */
+	border-top-right-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+    border-top-left-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+}
+.article #subject .topkuru
+{
+	width:20%;
+	float:left;
+}
+.article #subject .topfb
+{
+	width:35%;
+	float:right;
+}
+.main-content DIV H4
+{
+	font-family:"華康儷粗黑";
+	font-weight:bolder;
+}
+.map
+{
+	margin-top:15px;
+	padding-left:0px;
+	padding-right:0px;
+}
+.food, .hotel, .nmarket, .funny, .view, .shop, .event
+{
+	margin-top:6px;
+	padding-left:10px;
+	padding-right:5px;
+	border-style: ridge;
+	border-width:3px;
+	-moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius:5px; /* Safari, Chrome */
+    -khtml-border-radius:5px; /* Konqueror */
+    border-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+}
+ .food
+{
+	border-color:#ca151d;
+	background-color:#fcf3f3;
+}
+.hotel
+{
+	border-color:#15a8a7;
+	background-color:#f3fbfb;
+}
+.nmarket
+{
+	border-color:#584497;
+	background-color:#f6f5fa;
+}
+.funny
+{
+	border-color:#ee7d1a;
+	background-color:#fef8f3;
+}
+.view
+{
+	border-color:#0c6334;
+	background-color:#e6efea;
+}
+.shop
+{
+	border-color:#3173b9;
+	background-color:#f4f8fb;
+}
+.event
+{
+	border-color:#187797;
+	background-color:#f2f7f9;
+}
+.food IMG, .hotel IMG, .nmarket IMG, .funny IMG, .view IMG, .shop IMG, .event IMG
+{
+	float:left;
+	margin-top:5px;
+	margin-right:5px;
+}
+.main-content #food
+{
+	height:8px;
+}
+.topbtn
+{
+	height:15px;
+	margin-top:-5px;
+	margin-bottom:12px;
+}
+.a1, .a2, .a3, .a4, .a5, .a6, .a7
+{
+	position: absolute;
+}
+.a1
+{
+	top:60px;
+	left:100px;
+}
+.a2
+{
+	top:80px;
+	left:240px;
+}
+.a3
+{
+	top:60px;
+	left:370px;
+}
+.a4
+{
+	top:80px;
+	left:490px;
+}
+.a5
+{
+	top:130px;
+	left:140px;
+}
+.a6
+{
+	top:150px;
+	left:325px;
+}
+.a7
+{
+	top:130px;
+	left:450px;
+}
+@media all and (max-width: 655px){
+.a1
+{
+	top:30px;
+	left:70px;
+}
+.a2
+{
+	top:50px;
+	left:215px;
+}
+.a3
+{
+	top:30px;
+	left:320px;
+}
+.a4
+{
+	top:50px;
+	left:400px;
+}
+.a5
+{
+	top:90px;
+	left:80px;
+}
+.a6
+{
+	top:110px;
+	left:170px;
+}
+.a7
+{
+	top:90px;
+	left:340px;
+}
+}
+@media all and (max-width: 530px){
+.a1
+{
+	top:10px;
+	left:70px;
+}
+.a2
+{
+	top:20px;
+	left:160px;
+}
+.a3
+{
+	top:10px;
+	left:230px;
+}
+.a4
+{
+	top:20px;
+	left:290px;
+}
+.a5
+{
+	top:60px;
+	left:50px;
+}
+.a6
+{
+	top:70px;
+	left:150px;
+}
+.a7
+{
+	top:70px;
+	left:280px;
+}
+}
+@media all and (max-width: 415px){
+.a1
+{
+	top:-5px;
+	left:20px;
+}
+.a2
+{
+	top:2px;
+	left:100px;
+}
+.a3
+{
+	top:-5px;
+	left:155px;
+}
+.a4
+{
+	top:2px;
+	left:220px;
+}
+.a5
+{
+	top:40px;
+	left:40px;
+}
+.a6
+{
+	top:47px;
+	left:115px;
+}
+.a7
+{
+	top:40px;
+	left:200px;
+}
+}
+@media all and (max-width: 340px){
+.a1
+{
+	top:-15px;
+	left:20px;
+}
+.a2
+{
+	top:-5px;
+	left:80px;
+}
+.a3
+{
+	top:-15px;
+	left:130px;
+}
+.a4
+{
+	top:-5px;
+	left:175px;
+}
+.a5
+{
+	top:30px;
+	left:25px;
+}
+.a6
+{
+	top:35px;
+	left:105px;
+}
+.a7
+{
+	top:30px;
+	left:180px;
+}
+}
+A.btn.btn-kuru.btn-lg
+{
+	margin-top:8px;
+	width:100%;
+}

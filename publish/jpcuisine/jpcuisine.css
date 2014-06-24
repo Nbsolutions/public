@@ -12,25 +12,30 @@
 }
 .article
 {
-	background-image:url(http://nbsolutions.github.io/public/publish/jpcuisine/title.gif);
+	background-image:url(/assets/images/publish/jpcuisine/title.gif);
 	background-repeat:no-repeat;
-	background-size: contain;
 	background-color:#f0d7b8;
 }
+.article #subject IMG
+{
+
+}
+
 .article .main-content .intr
 {
 	width:367px;
 	height:178px;
 	float:left;
-	background-image:url(http://nbsolutions.github.io/public/publish/jpcuisine/intr.png);
-	background-repeat:no-repeat;
-	background-size: contain;
+}
+.article .main-content .intr .intrimg
+{
+	position:absolute;
 }
 .article .main-content .intr .intrtxt
 {
-	padding-left:25px;
+	padding-left:28px;
 	padding-right:22px;
-	padding-top:15px;
+	padding-top:70px;
 }
 .article .main-content .sec1, .article .main-content .sec2, .article .main-content .sec3, .article .main-content .sec4, .article .main-content .sec5, .article .main-content .sec6
 {
@@ -78,43 +83,42 @@
 }
 .article .m1
 {
-	float:left;
-	height:175px;
+	height:180px;
 	width:180px;
-	margin-top:-400px;
+	margin-top:-380px;
 }
 .article .m2
 {
-	height:140px;
+	height:145px;
 	width:275px;
-	margin-top:-225px;
+	margin-top:-200px;
 }
 .article .m3
 {
-	height:140px;
+	height:125px;
 	width:185px;
-	margin-top:-225px;
+	margin-top:-180px;
 	margin-left:275px;
 }
 .article .m4
 {
-	height:140px;
+	height:125px;
 	width:185px;
-	margin-top:-225px;
+	margin-top:-180px;
 	margin-left:468px;
 }
 .article .m5
 {
-	height:140px;
+	height:150px;
 	width:285px;
-	margin-top:-225px;
+	margin-top:-205px;
 	margin-left:653px;
 }
 .article .m6
 {
 	height:175px;
 	width:193px;
-	margin-top:-400px;
+	margin-top:-380px;
 	margin-left:745px;
 }
 .article .main-content .boldtxt
@@ -122,31 +126,10 @@
 	font-family: "華康儷細黑";
 	font-weight:700;
 }
-/******PHONE******/
-BODY.xs .article .main-content .intr
+/******PHONE******//*
+@media screen and (min-width: 767px){
+.article #subject .top
 {
-	width:100%;
-	height:auto;
-	background-image:url(http://nbsolutions.github.io/public/publish/jpcuisine/intrphone.png);
-	background-repeat:repeat-y;
-	background-size:cover;
+	margin-top:0px;
 }
-BODY.xs .article .main-content .intr .intrtxt
-{
-	padding-top:5px;
-	padding-bottom:5px;
-}
-BODY.xs .article .main-content .sec1, BODY.xs .article .main-content .sec2, BODY.xs .article .main-content .sec4, BODY.xs .article .main-content .sec6, BODY.xs .article .main-content .sec3, BODY.xs .article .main-content .sec5
-{
-	width:100%;
-	margin-top:15px;
-}
-BODY.xs .article .main-content .sec1 .secimg, BODY.xs .article .main-content .sec2 .secimg, BODY.xs .article .main-content .sec3 BODY.xs .secimg, BODY.xs .article .main-content .sec4 .secimg, BODY.xs .article .main-content BODY.xs .sec5 .secimg, BODY.xs .article .main-content .sec6 .secimg
-{
-	width:100%;
-	height:auto;
-}
-BODY.xs .article .m1, BODY.xs .article .m2, BODY.xs .article .m3, BODY.xs .article .m4, BODY.xs .article .m5, BODY.xs .article .m6
-{
-	display:none;
-}
+}*/
