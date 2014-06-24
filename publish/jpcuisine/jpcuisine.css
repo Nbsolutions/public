@@ -137,6 +137,8 @@ BODY.xs .article .main-content .intr .intrtxt
 {
 	padding-top:5px;
 	padding-bottom:5px;
+	padding-left:15px;
+	padding-right:12px;
 }
 BODY.xs .article .main-content .sec1, BODY.xs .article .main-content .sec2, BODY.xs .article .main-content .sec4, BODY.xs .article .main-content .sec6, BODY.xs .article .main-content .sec3, BODY.xs .article .main-content .sec5
 {
