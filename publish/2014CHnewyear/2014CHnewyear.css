@@ -1,0 +1,86 @@
+.article, FOOTER
+{
+	z-index: 1;
+	position: relative;
+}
+#bg-tree
+{
+	position: fixed;
+	bottom: 0;
+	/*left: -144px;*/
+	left: 50%;
+	margin-left: -730px;
+	/*background-image: url("/assets/images/publish/2014newyear/101.png");*/
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 700px;
+	width: 416px;
+	z-index: 0;
+}
+#subject IMG
+{
+	padding-bottom:10px;
+}
+.main-content .sample
+{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.main-content .sample-2
+{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.main-content .abtn
+{
+	padding-bottom:65px;
+}
+.main-content .abtn-2
+{
+	padding-bottom:65px;
+}
+#subject A
+{
+	position:absolute;
+	height:47px;
+	top:289px;
+}
+.main-content .content-text
+{
+	color:#000;
+}
+#subject .s1
+{
+	left:0px;
+	width:132px;
+}
+#subject .s2
+{
+	left:132px;
+	width:139px;
+}
+#subject .s3
+{
+	left:271px;
+	width:132px;
+}
+#subject .s4
+{
+	left:403px;
+	width:140px;
+}
+#subject .s5
+{
+	left:543px;
+	width:130px;
+}
+#subject .s6
+{
+	left:673px;
+	width:137px;
+}
+#subject .s7
+{
+	left:810px;
+	width:129px;
+}
