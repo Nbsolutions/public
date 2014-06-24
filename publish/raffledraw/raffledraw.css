@@ -1,0 +1,96 @@
+body 
+{
+	background-image:url(http://nbsolutions.github.io/public/publish/raffledraw/background.png);
+}
+.article
+{
+	background-color:#ffeb64;
+}
+.article #subject .title
+{
+	margin-top:-15px;
+	-moz-border-top-right-radius:5px; /* Firefox */
+	-moz-border-top-left-radius:5px; /* Firefox */
+    -webkit-border-top-right-radius:5px; /* Safari, Chrome */
+    -webkit-border-top-left-radius:5px; /* Safari, Chrome */
+    -khtml-border-top-right-radius:5px; /* Konqueror */
+    -khtml-border-top-left-radius:5px; /* Konqueror */
+	border-top-right-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+    border-top-left-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+}
+.article #subject .fblink
+{
+	position:absolute;
+	width:234px;
+	height:45px;
+	left:720px;
+	top:0px;
+}
+.article .introduction, .article .step
+{
+	position:relative;
+	background-color:#FFF;
+	-moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius:5px; /* Safari, Chrome */
+    -khtml-border-radius:5px; /* Konqueror */
+	border-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+	margin-bottom:20px;
+	padding-bottom:5px;
+}
+.article .step
+{
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+#activity .main-content .introduction .sec1, #activity .main-content .step .sec2, #activity .main-content .step .sec3 
+{
+	position:relative;
+	padding-top:10px;
+	padding-bottom:15px;
+}
+.article .introduction
+{
+	margin-top:-135px;
+}
+#activity .main-content .step .ps .sec4
+{
+	padding-bottom:15px;
+}
+#activity .main-content .step .giftintr
+{
+	position:relative;
+}
+#activity .main-content .step .mumasec
+{
+	margin-top:10px;
+	-moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius:5px; /* Safari, Chrome */
+    -khtml-border-radius:5px; /* Konqueror */
+	border-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+}
+#activity .main-content .step .mumasec .book
+{
+	padding-top:13px;
+	padding-left:10px;
+}
+#activity .main-content .step .mumasec .muma
+{
+	float:right;
+	position:relative;
+}
+#activity .main-content .step .ps
+{
+	position:relative;
+	padding-top:5px;
+	margin-top:20px;
+	padding-bottom:30px;
+}
+#activity .main-content .step .ps .boldtxt, #activity .main-content .step .boldtxt
+{
+	font-family: "華康儷細黑";
+	font-weight:700;
+}
+BODY.xs .article .introduction
+{
+	margin-top:0px;
+}

@@ -1,0 +1,135 @@
+.article #subject .img-responsive
+{
+	margin-top:-15px;
+	-moz-border-top-right-radius:5px; /* Firefox */
+	-moz-border-top-left-radius:5px; /* Firefox */
+    -webkit-border-top-right-radius:5px; /* Safari, Chrome */
+    -webkit-border-top-left-radius:5px; /* Safari, Chrome */
+    -khtml-border-top-right-radius:5px; /* Konqueror */
+    -khtml-border-top-left-radius:5px; /* Konqueror */
+	border-top-right-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+    border-top-left-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+}
+.article
+{
+	background-image:url(/assets/images/publish/jpcuisine/title.gif);
+	background-repeat:no-repeat;
+	background-color:#f0d7b8;
+}
+.article #subject IMG
+{
+
+}
+
+.article .main-content .intr
+{
+	width:367px;
+	height:178px;
+	float:left;
+}
+.article .main-content .intr .intrimg
+{
+	position:absolute;
+}
+.article .main-content .intr .intrtxt
+{
+	padding-left:28px;
+	padding-right:22px;
+	padding-top:70px;
+}
+.article .main-content .sec1, .article .main-content .sec2, .article .main-content .sec3, .article .main-content .sec4, .article .main-content .sec5, .article .main-content .sec6
+{
+	-moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius:5px; /* Safari, Chrome */
+    -khtml-border-radius:5px; /* Konqueror */
+	border-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+	background-color:#FFF;
+}
+.article .main-content .sec1
+{
+	float: right;
+	width:530px;
+}
+.article .main-content .sec1 .title, .article .main-content .sec2 .title, .article .main-content .sec3 .title, .article .main-content .sec4 .title, .article .main-content .sec5 .title, .article .main-content .sec6 .title
+{
+	position:absolute;
+	margin-top:-8px;
+	margin-left:-19px;
+}
+.article .main-content .sec1 .secimg, .article .main-content .sec2 .secimg, .article .main-content .sec3 .secimg, .article .main-content .sec4 .secimg, .article .main-content .sec5 .secimg, .article .main-content .sec6 .secimg
+{
+	padding-top:42px;
+	padding-bottom:10px;
+}
+.article .main-content .sec2, .article .main-content .sec4, .article .main-content .sec6
+{
+	float:left;
+	width:367px;
+	margin-top:20px;
+}
+.article .main-content .sec3, .article .main-content .sec5
+{
+	float:right;
+	width:530px;
+	margin-top:20px;
+}
+.article .main-content .sec1 .btns, .article .main-content .sec2 .btns, .article .main-content .sec3 .btns, .article .main-content .sec4 .btns, .article .main-content .sec5 .btns, .article .main-content .sec6 .btns
+{
+	padding-bottom:14px;
+}
+.article .m1, .article .m2, .article .m3, .article .m4, .article .m5, .article .m6
+{
+	position:absolute;
+}
+.article .m1
+{
+	height:180px;
+	width:180px;
+	margin-top:-380px;
+}
+.article .m2
+{
+	height:145px;
+	width:275px;
+	margin-top:-200px;
+}
+.article .m3
+{
+	height:125px;
+	width:185px;
+	margin-top:-180px;
+	margin-left:275px;
+}
+.article .m4
+{
+	height:125px;
+	width:185px;
+	margin-top:-180px;
+	margin-left:468px;
+}
+.article .m5
+{
+	height:150px;
+	width:285px;
+	margin-top:-205px;
+	margin-left:653px;
+}
+.article .m6
+{
+	height:175px;
+	width:193px;
+	margin-top:-380px;
+	margin-left:745px;
+}
+.article .main-content .boldtxt
+{
+	font-family: "華康儷細黑";
+	font-weight:700;
+}
+/******PHONE******//*
+@media screen and (min-width: 767px){
+.article #subject .top
+{
+	margin-top:0px;
+}
+}*/

@@ -1,0 +1,47 @@
+BODY 
+{
+	background-image:url(http://nbsolutions.github.io/public/publish/raffledraw/background.png);
+}
+@media all and (min-width: 1270px){
+	#main-content
+	{
+		width:80%;
+	}
+}
+@media all and (min-width: 767px) and (max-width: 1269px){
+	#main-content
+	{
+		width:1062 px;
+	}
+}
+.article #subject .topkuru, .article #subject .topfb
+{
+	margin-top:-15px;
+	-moz-border-top-right-radius:5px; /* Firefox */
+	-moz-border-top-left-radius:5px; /* Firefox */
+    -webkit-border-top-right-radius:5px; /* Safari, Chrome */
+    -webkit-border-top-left-radius:5px; /* Safari, Chrome */
+    -khtml-border-top-right-radius:5px; /* Konqueror */
+    -khtml-border-top-left-radius:5px; /* Konqueror */
+	border-top-right-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+    border-top-left-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+}
+.article #subject .topkuru
+{
+	float:left;
+}
+.article #subject .topfb
+{
+	float:right;
+}
+.main-content .mapbtn
+{
+	margin-bottom:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	width:100%;
+}
+.article #activity .top
+{
+	float:right;
+}
