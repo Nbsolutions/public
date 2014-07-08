@@ -1,39 +1,7 @@
-.demo
-{
-	position:relative;
-	width:417px;
-	height:417px;
-}
-#disk
-{
-	width:417px;
-	height:417px;
-	background-image:url(/assets/images/publish/afternoontea/disk.png);
-	background-repeat:no-repeat;
-	background-size:contain;
-}
-#start
-{
-	position:absolute;
-	width:139px;
-	height:227px;
-	top:138px;
-	left:142px;
-}
-#start img
-{
-	cursor:pointer;
-}
-
-
-
-
-
-
 /*----------TOP&BK----------*/
 .article
 {
-	background-image:url(/assets/images/publish/afternoontea/bk.png);
+	background-image:url(http://nbsolutions.github.io/public/publish/afternoontea/bk.png);
 	background-repeat: repeat-y;
 
 }
@@ -148,7 +116,7 @@ A.m1:hover, A.m2:hover, A.m3:hover, A.m4:hover, A.m5:hover, A.m6:hover
 /*----------MAIN----------*/
 .article .main-content .intr
 {
-	background-image:url(/assets/images/publish/afternoontea/intrbk.png);
+	background-image:url(http://nbsolutions.github.io/public/publish/afternoontea/intrbk.png);
 	background-repeat:repeat-y;
 	background-color:#ffecf2;
 	background-size:contain;
