@@ -31,6 +31,7 @@ A.m1:hover, A.m2:hover, A.m3:hover, A.m4:hover, A.m5:hover, A.m6:hover
 	-webkit-transition:0.3s;
 	-moz-transition:0.3s;
 	transition:0.3s;
+	cursor: pointer;
 }
 .article .m1
 {
