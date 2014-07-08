@@ -227,6 +227,22 @@ BODY.xs .article .main-content .intr .intrtxt H3
 	box-shadow:1px 1px 5px rgba(0%, 0%, 0%, 0.2);
 	margin-bottom:10px;
 }
+.secimg
+{
+	border:solid #eae1ce;
+	border-width:3px;
+	-webkit-transition-duration:0.1s;
+	-moz-transition-duration:0.1s;
+	transition-duration:0.1s;
+}
+.secimg:hover, A.secimg:hover
+{
+	border:solid #FFF;
+	border-width:3px;
+	-webkit-transition-duration:0.1s;
+	-moz-transition-duration:0.1s;
+	transition-duration:0.1s;
+}
 .btntea ,A.btntea
 {
 	background:#ffd8e4;
