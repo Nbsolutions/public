@@ -97,6 +97,7 @@ A.m1:hover, A.m2:hover, A.m3:hover, A.m4:hover, A.m5:hover, A.m6:hover
 {
 	float:left;
 	margin-left:5px;
+	cursor: pointer;
 }
 .article #subject .sec
 {
@@ -107,6 +108,7 @@ A.m1:hover, A.m2:hover, A.m3:hover, A.m4:hover, A.m5:hover, A.m6:hover
 {
 	float:right;
 	margin-right:5px;
+	cursor: pointer;
 }
 .article .share
 {
