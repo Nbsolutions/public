@@ -1,0 +1,130 @@
+body 
+{
+	background-image: url(/assets/images/publish/chio/background.jpg);
+}
+.article
+{
+	background-color:#000;
+}
+.article .boldtxt
+{
+	font-family: "華康儷細黑";
+	font-weight:700;
+}
+.article #subject .title
+{
+	margin-top:-15px;
+	-moz-border-top-right-radius:5px; /* Firefox */
+	-moz-border-top-left-radius:5px; /* Firefox */
+    -webkit-border-top-right-radius:5px; /* Safari, Chrome */
+    -webkit-border-top-left-radius:5px; /* Safari, Chrome */
+    -khtml-border-top-right-radius:5px; /* Konqueror */
+    -khtml-border-top-left-radius:5px; /* Konqueror */
+	border-top-right-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+    border-top-left-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+}
+.article #subject .homelink
+{
+	position:absolute;
+	width:200px;
+	height:40px;
+	top:0px;
+	-moz-border-top-left-radius:5px; /* Firefox */
+    -webkit-border-top-left-radius:5px; /* Safari, Chrome */
+    -khtml-border-top-left-radius:5px; /* Konqueror */
+    border-top-left-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+}
+.article #subject .fblink
+{
+	position:absolute;
+	width:231px;
+	height:40px;
+	left:723px;
+	top:0px;
+	-moz-border-top-right-radius:5px; /* Firefox */
+    -webkit-border-top-right-radius:5px; /* Safari, Chrome */
+    -khtml-border-top-right-radius:5px; /* Konqueror */
+	border-top-right-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+}
+.article #subject .titlegift
+{
+	position:absolute;
+	top:350px;
+	left:575px;
+	width:365px;	
+}
+.article #subject .titlegift .txtleft
+{
+	text-align:left;
+	color:#fff;
+	margin-bottom:1px;
+}
+.article #subject .titlegift .txtright
+{
+	text-align:right;
+	color:#fff;
+}
+.article #subject .titlegift .gifttxt
+{
+	font-size:16px;
+}
+.article .introduction, .article .step
+{
+	position:relative;
+	background-color:#FFF;
+	-moz-border-radius:5px; /* Firefox */
+    -webkit-border-radius:5px; /* Safari, Chrome */
+    -khtml-border-radius:5px; /* Konqueror */
+	border-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+	padding-bottom:5px;
+}
+.article .introduction
+{
+	margin-top:-135px;
+	margin-bottom:15px;
+}
+.article .main-content .introduction .title, .article .main-content .step .title
+{
+	position:relative;
+	border-bottom: #fff3a2 solid;
+	margin-top:10px;
+}
+.article .main-content .introduction .title .fire, .article .main-content .step .fire
+{
+	width:30px;
+	height:auto;
+	float:left;
+	padding-right:5px;
+	padding-top:5px;
+}
+.article .main-content .introduction .title H2, .article .main-content .step H2
+{
+	font-weight:bolder;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+.article .main-content .introduction .content
+{
+	position:relative;
+	margin-top:10px;
+}
+.article .main-content .step
+{
+	margin-bottom:0px;
+	padding-bottom:15px;
+}
+.article .main-content .step .content
+{
+	position:relative;
+	margin-top:20px;
+}
+
+.article .main-content .step .content .stepimg
+{
+	margin-top:10px;
+}
+.article .main-content .step .content .img
+{
+	text-align:right;
+}
+
