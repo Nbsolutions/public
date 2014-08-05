@@ -57,15 +57,21 @@ body
 	left:575px;
 	width:365px;	
 }
-.article #subject .titlegift .txtleft
+.article .txtleft
 {
 	text-align:left;
+}	
+.article #subject .titlegift .txtleft
+{
 	color:#fff;
 	margin-bottom:1px;
 }
-.article #subject .titlegift .txtright
+.article .txtright
 {
 	text-align:right;
+}
+.article #subject .titlegift .txtright
+{
 	color:#fff;
 }
 .article #subject .titlegift .gifttxt
