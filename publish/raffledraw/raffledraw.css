@@ -23,8 +23,8 @@
 	position:absolute;
 	margin:0px;
 	width:610px;
-	height:346px;
-	top:150px;
+	height:495px;
+	top: 80px;
 	left:165px;
 	background-color:#FFF;
 	-moz-border-radius:10px;
@@ -50,16 +50,44 @@
 }
 .article #closed .title
 {
-	margin-top:20px;
+	margin-top:10px;
 }
-.article #closed H2
+.article #closed H3
 {
-	text-align:center;
-	margin-top:0px;
-	margin-bottom:30px;
+	margin-top:15px;
+	margin-left:35px;
+	margin-bottom:10px;
+}
+.article #closed .table
+{
+	width:480px;
+	margin-left:60px;
+	margin-bottom:5px;
+}
+.article #closed .table thead th
+{
+	background-color: #fff22b;
+	border-bottom:2px solid #FC0;
+}
+.article #closed .table tr td
+{
+	border-bottom:1px solid #FC0;
+}
+.article #closed .table .col1
+{
+	width:20%;
+}
+.article #closed .table .col2
+{
+	width:20%;
+}
+.article #closed .table .col3
+{
+	width:60%;
 }
 .article #closed .btn
 {
+	margin-top:10px;
 	margin-right:10px;
 	margin-bottom:10px;
 }
