@@ -2,6 +2,6 @@
 http://nbsolutions.github.io/public/
 
 
-https://raw.githubusercontent.com/dj31416/public  
+https://raw.githubusercontent.com/dj31416/public/master/  
 
 
