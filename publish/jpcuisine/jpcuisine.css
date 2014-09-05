@@ -9,6 +9,7 @@
     -khtml-border-top-left-radius:5px; /* Konqueror */
 	border-top-right-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
     border-top-left-radius:5px; /* Opera 10.50 and later (CSS3 standard) */
+<<<<<<< HEAD
 }
 .article
 {
@@ -21,11 +22,24 @@
 
 }
 
+=======
+
+	
+}
+.article
+{
+	background-image:url(http://nbsolutions.github.io/public/publish/jpcuisine/title.gif);
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-color:#f0d7b8;
+}
+>>>>>>> kevin
 .article .main-content .intr
 {
 	width:367px;
 	height:178px;
 	float:left;
+<<<<<<< HEAD
 }
 .article .main-content .intr .intrimg
 {
@@ -36,6 +50,17 @@
 	padding-left:28px;
 	padding-right:22px;
 	padding-top:70px;
+=======
+	background-image:url(http://nbsolutions.github.io/public/publish/jpcuisine/intr.png);
+	background-repeat:no-repeat;
+	background-size: contain;
+}
+.article .main-content .intr .intrtxt
+{
+	padding-left:25px;
+	padding-right:22px;
+	padding-top:15px;
+>>>>>>> kevin
 }
 .article .main-content .sec1, .article .main-content .sec2, .article .main-content .sec3, .article .main-content .sec4, .article .main-content .sec5, .article .main-content .sec6
 {
@@ -83,6 +108,7 @@
 }
 .article .m1
 {
+<<<<<<< HEAD
 	height:180px;
 	width:180px;
 	margin-top:-380px;
@@ -98,27 +124,61 @@
 	height:125px;
 	width:185px;
 	margin-top:-180px;
+=======
+	float:left;
+	height:175px;
+	width:180px;
+	margin-top:-400px;
+}
+.article .m2
+{
+	height:140px;
+	width:275px;
+	margin-top:-225px;
+}
+.article .m3
+{
+	height:140px;
+	width:185px;
+	margin-top:-225px;
+>>>>>>> kevin
 	margin-left:275px;
 }
 .article .m4
 {
+<<<<<<< HEAD
 	height:125px;
 	width:185px;
 	margin-top:-180px;
+=======
+	height:140px;
+	width:185px;
+	margin-top:-225px;
+>>>>>>> kevin
 	margin-left:468px;
 }
 .article .m5
 {
+<<<<<<< HEAD
 	height:150px;
 	width:285px;
 	margin-top:-205px;
+=======
+	height:140px;
+	width:285px;
+	margin-top:-225px;
+>>>>>>> kevin
 	margin-left:653px;
 }
 .article .m6
 {
 	height:175px;
 	width:193px;
+<<<<<<< HEAD
 	margin-top:-380px;
+=======
+	margin-top:-400px;
+>>>>>>> kevin
 	margin-left:745px;
 }
 .article .main-content .boldtxt
@@ -126,6 +186,7 @@
 	font-family: "華康儷細黑";
 	font-weight:700;
 }
+<<<<<<< HEAD
 /******PHONE******//*
 @media screen and (min-width: 767px){
 .article #subject .top
@@ -133,3 +194,35 @@
 	margin-top:0px;
 }
 }*/
+=======
+/******PHONE******/
+BODY.xs .article .main-content .intr
+{
+	width:100%;
+	height:auto;
+	background-image:url(http://nbsolutions.github.io/public/publish/jpcuisine/intrphone.png);
+	background-repeat:repeat-y;
+	background-size: contain;
+}
+BODY.xs .article .main-content .intr .intrtxt
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:15px;
+	padding-right:12px;
+}
+BODY.xs .article .main-content .sec1, BODY.xs .article .main-content .sec2, BODY.xs .article .main-content .sec4, BODY.xs .article .main-content .sec6, BODY.xs .article .main-content .sec3, BODY.xs .article .main-content .sec5
+{
+	width:100%;
+	margin-top:15px;
+}
+BODY.xs .article .main-content .sec1 .secimg, BODY.xs .article .main-content .sec2 .secimg, BODY.xs .article .main-content .sec3 BODY.xs .secimg, BODY.xs .article .main-content .sec4 .secimg, BODY.xs .article .main-content BODY.xs .sec5 .secimg, BODY.xs .article .main-content .sec6 .secimg
+{
+	width:100%;
+	height:auto;
+}
+BODY.xs .article .m1, BODY.xs .article .m2, BODY.xs .article .m3, BODY.xs .article .m4, BODY.xs .article .m5, BODY.xs .article .m6
+{
+	display:none;
+}
+>>>>>>> kevin
